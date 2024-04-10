@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleProducts from './SingleProducts'
+import { SingleProducts } from './SingleProducts'
 
 
 export const Products = () => {

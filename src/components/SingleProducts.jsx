@@ -3,7 +3,7 @@ import { products } from '../data.js'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const SingleProducts = () => {
+export const SingleProducts = () => {
   return (
     <div className="container shadow d-flex flex-wrap gap-3 justify-content-evenly p-3">
       {products.map(prod =>
@@ -31,4 +31,3 @@ const SingleProducts = () => {
   )
 }
 
-export default SingleProducts

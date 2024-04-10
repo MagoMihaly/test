@@ -5,8 +5,8 @@ import { NotFound } from "./components/NotFound";
 import { Products } from "./components/Products";
 import { Contact } from "./components/Contact";
 import './App.css'
-import Home from "./components/Home";
-import About from "./components/About";
+import { Home } from "./components/Home";
+import { About } from "./components/About";
 
 
 function App() {

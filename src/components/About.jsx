@@ -2,7 +2,7 @@ import React from 'react'
 import about1 from '../assets/about1.jpg'
 import about2 from '../assets/about2.jpg'
 
-const About = () => {
+export const About = () => {
   return (
     <section className='container p-3'>
       <div className="row">
@@ -57,5 +57,3 @@ const About = () => {
     </section>
   )
 }
-
-export default About
